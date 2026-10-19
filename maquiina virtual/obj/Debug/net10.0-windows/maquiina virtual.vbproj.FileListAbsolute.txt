@@ -19,3 +19,24 @@ C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\ob
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Monedas.resources
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Cambio_de_Dinero_en_Monedas.resources
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Resources.resources
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Monedas.resources
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Form1.resources
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormPeluches.resources
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Resources.resources
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.vbproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.AssemblyInfo.vb
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.sourcelink.json
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.exe
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.deps.json
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.dll
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.pdb
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.dll
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\refint\maquiina virtual.dll
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.pdb
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\ref\maquiina virtual.dll
+C:\Users\Usuario\OneDrive\Desktop\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina.9A430B30.Up2Date

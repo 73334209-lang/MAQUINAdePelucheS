@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\maquiina virtual.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\maquiina virtual.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\maquiina virtual.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\juegos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\juegos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\equipo\\onedrive\\documentos\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\cambiar monedas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\juegos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\juegos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\usuario\\onedrive\\desktop\\documentos\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -34,11 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -57,66 +73,99 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "maquiina virtual",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
               "RelativeDocumentMoniker": "maquiina virtual\\maquiina virtual.vbproj",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
               "RelativeToolTip": "maquiina virtual\\maquiina virtual.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2026-10-19T17:17:40.634Z",
+              "WhenOpened": "2026-10-19T20:36:35.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FormPeluches.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.vb",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T20:13:27.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormPeluches.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.Designer.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.Designer.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.Designer.vb",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.Designer.vb",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwMQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T19:45:51.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPeluches.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb [Dise\u00F1o]",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T19:45:40.969Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Cambiar Monedas.vb",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Cambiar Monedas.vb",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
               "RelativeToolTip": "maquiina virtual\\Cambiar Monedas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-10-19T17:00:59.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Juegos.vb",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Juegos.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Juegos.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Juegos.vb",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Juegos.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Juegos.vb",
               "RelativeToolTip": "maquiina virtual\\Juegos.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-10-19T15:08:39.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T15:08:39.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Cambiar Monedas.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Cambiar Monedas.vb",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb [Dise\u00F1o]",
               "RelativeToolTip": "maquiina virtual\\Cambiar Monedas.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-10-19T15:06:37.033Z",
+              "WhenOpened": "2026-10-19T17:31:02.103Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb [Dise\u00F1o]",
               "RelativeToolTip": "maquiina virtual\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-10-19T13:47:06.325Z",
@@ -124,26 +173,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
-              "ToolTip": "C:\\Users\\EQUIPO\\OneDrive\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeToolTip": "maquiina virtual\\Form1.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-10-19T14:46:37.424Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 75,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2026-10-19T14:46:37.424Z"
             }
           ]
         }
