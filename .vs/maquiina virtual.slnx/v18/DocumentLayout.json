@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A689D9D3-A313-4803-973A-037C6A328591}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\desktop\\maquinadepeluches\\maquiina virtual\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A689D9D3-A313-4803-973A-037C6A328591}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\Form1.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "maquiina virtual\\Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T13:47:06.325Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
