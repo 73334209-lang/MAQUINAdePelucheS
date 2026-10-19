@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\",
+  "WorkspaceRootPath": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A689D9D3-A313-4803-973A-037C6A328591}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\desktop\\maquinadepeluches\\maquiina virtual\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{A689D9D3-A313-4803-973A-037C6A328591}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\maquiina virtual.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\maquiina virtual.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\laboratorio 01\\documents\\github\\maquinadepeluches\\maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +34,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPeluches.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.Designer.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.Designer.vb",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.Designer.vb",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.Designer.vb",
+              "ViewState": "AgIAABABAAAAAAAAAAAowCQBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T17:02:33.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "maquiina virtual",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+              "RelativeDocumentMoniker": "maquiina virtual\\maquiina virtual.vbproj",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+              "RelativeToolTip": "maquiina virtual\\maquiina virtual.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-10-19T16:38:23.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPeluches.vb",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.vb",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAQwNcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T15:47:09.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\Form1.vb",
+              "Title": "FormPeluches.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb [Dise\u00F1o]",
+              "RelativeToolTip": "maquiina virtual\\FormPeluches.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T15:05:17.054Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
-              "ToolTip": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\Form1.vb [Design]",
-              "RelativeToolTip": "maquiina virtual\\Form1.vb [Design]",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
+              "RelativeToolTip": "maquiina virtual\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T15:04:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
+              "ToolTip": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "maquiina virtual\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-10-19T13:47:06.325Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\maquiina virtual.vbproj",
+      "projectUniqueName": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
       "projectName": "maquiina virtual",
-      "projectPath": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\maquiina virtual.vbproj",
+      "projectPath": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
       "packagesPath": "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LABORATORIO 01\\Desktop\\maquinadePELUCHES\\maquiina virtual\\maquiina virtual\\obj\\",
+      "outputPath": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LABORATORIO 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
