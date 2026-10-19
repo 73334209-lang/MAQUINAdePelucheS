@@ -1,0 +1,379 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Monedas
+    Inherits System.Windows.Forms.Form
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
+
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Label2 = New Label()
+        PictureBox1 = New PictureBox()
+        Panel1 = New Panel()
+        btnConvertir = New Button()
+        txtMonto = New TextBox()
+        Label6 = New Label()
+        MontoenSoles = New Label()
+        btn50 = New Button()
+        btn20 = New Button()
+        btn10 = New Button()
+        btn5 = New Button()
+        btn2 = New Button()
+        btn1 = New Button()
+        SeleccionarMonto = New Label()
+        Panel2 = New Panel()
+        btnMonedas = New Button()
+        btnVolver = New Button()
+        Panel3 = New Panel()
+        PictureBox2 = New PictureBox()
+        PictureBox3 = New PictureBox()
+        Panel4 = New Panel()
+        Label9 = New Label()
+        lblSaldo = New Label()
+        label7 = New Label()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
+        Panel2.SuspendLayout()
+        Panel3.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        Panel4.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(183, 105)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(116, 17)
+        Label2.TabIndex = 1
+        Label2.Text = "Monedas vituales"
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.titulo
+        PictureBox1.Location = New Point(9, -2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(1024, 254)
+        PictureBox1.SizeMode = PictureBoxSizeMode.AutoSize
+        PictureBox1.TabIndex = 3
+        PictureBox1.TabStop = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
+        Panel1.Controls.Add(btnConvertir)
+        Panel1.Controls.Add(txtMonto)
+        Panel1.Controls.Add(Label6)
+        Panel1.Controls.Add(MontoenSoles)
+        Panel1.Controls.Add(btn50)
+        Panel1.Controls.Add(btn20)
+        Panel1.Controls.Add(btn10)
+        Panel1.Controls.Add(btn5)
+        Panel1.Controls.Add(btn2)
+        Panel1.Controls.Add(btn1)
+        Panel1.Controls.Add(SeleccionarMonto)
+        Panel1.Location = New Point(2, 258)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(503, 314)
+        Panel1.TabIndex = 5
+        ' 
+        ' btnConvertir
+        ' 
+        btnConvertir.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnConvertir.Location = New Point(242, 256)
+        btnConvertir.Name = "btnConvertir"
+        btnConvertir.Size = New Size(131, 42)
+        btnConvertir.TabIndex = 10
+        btnConvertir.Text = "Convertir"
+        btnConvertir.UseVisualStyleBackColor = True
+        ' 
+        ' txtMonto
+        ' 
+        txtMonto.Location = New Point(60, 268)
+        txtMonto.Name = "txtMonto"
+        txtMonto.Size = New Size(161, 23)
+        txtMonto.TabIndex = 9
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Location = New Point(24, 261)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(34, 30)
+        Label6.TabIndex = 8
+        Label6.Text = "S/"
+        ' 
+        ' MontoenSoles
+        ' 
+        MontoenSoles.AutoSize = True
+        MontoenSoles.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        MontoenSoles.Location = New Point(24, 224)
+        MontoenSoles.Name = "MontoenSoles"
+        MontoenSoles.Size = New Size(157, 20)
+        MontoenSoles.TabIndex = 7
+        MontoenSoles.Text = "Monto Personalizado"
+        ' 
+        ' btn50
+        ' 
+        btn50.BackgroundImage = My.Resources.Resources.Moneda
+        btn50.BackgroundImageLayout = ImageLayout.Zoom
+        btn50.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn50.Location = New Point(337, 132)
+        btn50.Name = "btn50"
+        btn50.Size = New Size(151, 66)
+        btn50.TabIndex = 6
+        btn50.Text = "S/50.00"
+        btn50.UseVisualStyleBackColor = True
+        ' 
+        ' btn20
+        ' 
+        btn20.BackgroundImage = My.Resources.Resources.Moneda
+        btn20.BackgroundImageLayout = ImageLayout.Zoom
+        btn20.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn20.Location = New Point(168, 132)
+        btn20.Name = "btn20"
+        btn20.Size = New Size(145, 66)
+        btn20.TabIndex = 5
+        btn20.Text = "S/20.00"
+        btn20.UseVisualStyleBackColor = True
+        ' 
+        ' btn10
+        ' 
+        btn10.BackgroundImage = My.Resources.Resources.Moneda
+        btn10.BackgroundImageLayout = ImageLayout.Zoom
+        btn10.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn10.Location = New Point(9, 132)
+        btn10.Name = "btn10"
+        btn10.Size = New Size(146, 66)
+        btn10.TabIndex = 4
+        btn10.Text = "S/10.00"
+        btn10.UseVisualStyleBackColor = True
+        ' 
+        ' btn5
+        ' 
+        btn5.BackgroundImage = My.Resources.Resources.Moneda
+        btn5.BackgroundImageLayout = ImageLayout.Zoom
+        btn5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn5.Location = New Point(337, 47)
+        btn5.Name = "btn5"
+        btn5.Size = New Size(151, 66)
+        btn5.TabIndex = 3
+        btn5.Text = "S/5.00"
+        btn5.UseVisualStyleBackColor = True
+        ' 
+        ' btn2
+        ' 
+        btn2.BackgroundImage = My.Resources.Resources.Moneda
+        btn2.BackgroundImageLayout = ImageLayout.Zoom
+        btn2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn2.Location = New Point(168, 47)
+        btn2.Name = "btn2"
+        btn2.Size = New Size(145, 66)
+        btn2.TabIndex = 2
+        btn2.Text = "S/2.00"
+        btn2.UseVisualStyleBackColor = True
+        ' 
+        ' btn1
+        ' 
+        btn1.BackgroundImage = My.Resources.Resources.Moneda
+        btn1.BackgroundImageLayout = ImageLayout.Zoom
+        btn1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
+        btn1.Location = New Point(9, 47)
+        btn1.Name = "btn1"
+        btn1.Size = New Size(146, 66)
+        btn1.TabIndex = 1
+        btn1.Text = "S/1.00"
+        btn1.UseVisualStyleBackColor = True
+        ' 
+        ' SeleccionarMonto
+        ' 
+        SeleccionarMonto.AutoSize = True
+        SeleccionarMonto.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        SeleccionarMonto.Location = New Point(18, 11)
+        SeleccionarMonto.Name = "SeleccionarMonto"
+        SeleccionarMonto.Size = New Size(148, 20)
+        SeleccionarMonto.TabIndex = 0
+        SeleccionarMonto.Text = "Selecciona el Monto"
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
+        Panel2.Controls.Add(btnMonedas)
+        Panel2.Controls.Add(btnVolver)
+        Panel2.Location = New Point(1, 577)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(505, 112)
+        Panel2.TabIndex = 6
+        ' 
+        ' btnMonedas
+        ' 
+        btnMonedas.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(255))
+        btnMonedas.BackgroundImage = My.Resources.Resources.Moneda
+        btnMonedas.BackgroundImageLayout = ImageLayout.Zoom
+        btnMonedas.Font = New Font("Segoe UI Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnMonedas.ImageAlign = ContentAlignment.MiddleLeft
+        btnMonedas.Location = New Point(213, 13)
+        btnMonedas.Name = "btnMonedas"
+        btnMonedas.Size = New Size(280, 64)
+        btnMonedas.TabIndex = 1
+        btnMonedas.Text = "Obtener Monedas"
+        btnMonedas.TextAlign = ContentAlignment.BottomCenter
+        btnMonedas.UseVisualStyleBackColor = False
+        ' 
+        ' btnVolver
+        ' 
+        btnVolver.BackgroundImage = My.Resources.Resources.Flecha
+        btnVolver.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnVolver.Image = My.Resources.Resources.Flecha
+        btnVolver.Location = New Point(16, 13)
+        btnVolver.Name = "btnVolver"
+        btnVolver.Size = New Size(164, 64)
+        btnVolver.TabIndex = 0
+        btnVolver.Text = "Volver"
+        btnVolver.UseVisualStyleBackColor = True
+        ' 
+        ' Panel3
+        ' 
+        Panel3.BackColor = SystemColors.ButtonHighlight
+        Panel3.Controls.Add(PictureBox2)
+        Panel3.Controls.Add(PictureBox3)
+        Panel3.Controls.Add(Panel4)
+        Panel3.Controls.Add(lblSaldo)
+        Panel3.Controls.Add(label7)
+        Panel3.Controls.Add(Label2)
+        Panel3.Location = New Point(520, 258)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(513, 431)
+        Panel3.TabIndex = 7
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = My.Resources.Resources.Moneda
+        PictureBox2.Location = New Point(91, 35)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(86, 85)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 4
+        PictureBox2.TabStop = False
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.Image = My.Resources.Resources.oso_v2
+        PictureBox3.Location = New Point(270, 277)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(243, 160)
+        PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox3.TabIndex = 3
+        PictureBox3.TabStop = False
+        ' 
+        ' Panel4
+        ' 
+        Panel4.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(255))
+        Panel4.Controls.Add(Label9)
+        Panel4.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Panel4.Location = New Point(82, 132)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(351, 123)
+        Panel4.TabIndex = 2
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(33, 78)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(307, 15)
+        Label9.TabIndex = 0
+        Label9.Text = "Las Monedas Virtuales se usan el la Maquina de Peluches"
+        ' 
+        ' lblSaldo
+        ' 
+        lblSaldo.AutoSize = True
+        lblSaldo.Font = New Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblSaldo.Location = New Point(199, 19)
+        lblSaldo.Name = "lblSaldo"
+        lblSaldo.Size = New Size(74, 86)
+        lblSaldo.TabIndex = 1
+        lblSaldo.Text = "0"
+        ' 
+        ' label7
+        ' 
+        label7.AutoSize = True
+        label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        label7.Location = New Point(22, 6)
+        label7.Name = "label7"
+        label7.Size = New Size(144, 25)
+        label7.TabIndex = 0
+        label7.Text = "Tu saldo actual"
+        ' 
+        ' Monedas
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        AutoSize = True
+        ClientSize = New Size(1040, 707)
+        Controls.Add(Panel3)
+        Controls.Add(Panel2)
+        Controls.Add(Panel1)
+        Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
+        Name = "Monedas"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Cambiar Monedas"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
+        Panel2.ResumeLayout(False)
+        Panel3.ResumeLayout(False)
+        Panel3.PerformLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        Panel4.ResumeLayout(False)
+        Panel4.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents SeleccionarMonto As Label
+    Friend WithEvents btn50 As Button
+    Friend WithEvents btn20 As Button
+    Friend WithEvents btn10 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents btnConvertir As Button
+    Friend WithEvents txtMonto As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents MontoenSoles As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents btnMonedas As Button
+    Friend WithEvents btnVolver As Button
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents label7 As Label
+    Friend WithEvents lblSaldo As Label
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label9 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+End Class

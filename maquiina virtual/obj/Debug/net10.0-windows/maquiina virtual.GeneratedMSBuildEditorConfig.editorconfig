@@ -1,6 +1,6 @@
 is_global = true
 build_property.ApplicationManifest = 
-build_property.StartupObject = Sub Main
+build_property.StartupObject = maquiina_virtual.My.MyApplication
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
 build_property.ApplicationUseCompatibleTextRendering = 
@@ -17,7 +17,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = maquiina_virtual
-build_property.ProjectDir = C:\Users\LABORATORIO 01\Desktop\maquinadePELUCHES\maquiina virtual\maquiina virtual\
+build_property.ProjectDir = C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
