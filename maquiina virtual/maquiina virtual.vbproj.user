@@ -7,6 +7,9 @@
     <Compile Update="Cambiar Monedas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formColeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormPeluches.vb">
       <SubType>Form</SubType>
     </Compile>
