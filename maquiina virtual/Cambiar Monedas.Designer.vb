@@ -22,6 +22,7 @@ Partial Class Monedas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Monedas))
         Label2 = New Label()
         PictureBox1 = New PictureBox()
         Panel1 = New Panel()
@@ -59,19 +60,20 @@ Partial Class Monedas
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(183, 105)
+        Label2.Location = New Point(209, 140)
         Label2.Name = "Label2"
-        Label2.Size = New Size(116, 17)
+        Label2.Size = New Size(148, 23)
         Label2.TabIndex = 1
         Label2.Text = "Monedas vituales"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.titulo
-        PictureBox1.Location = New Point(9, -2)
+        PictureBox1.Location = New Point(-8, -3)
+        PictureBox1.Margin = New Padding(3, 4, 3, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(1024, 254)
-        PictureBox1.SizeMode = PictureBoxSizeMode.AutoSize
+        PictureBox1.Size = New Size(1214, 254)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 3
         PictureBox1.TabStop = False
         ' 
@@ -89,35 +91,39 @@ Partial Class Monedas
         Panel1.Controls.Add(btn2)
         Panel1.Controls.Add(btn1)
         Panel1.Controls.Add(SeleccionarMonto)
-        Panel1.Location = New Point(2, 258)
+        Panel1.Location = New Point(1, 259)
+        Panel1.Margin = New Padding(3, 4, 3, 4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(503, 314)
+        Panel1.Size = New Size(575, 419)
         Panel1.TabIndex = 5
         ' 
         ' btnConvertir
         ' 
         btnConvertir.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnConvertir.Location = New Point(242, 256)
+        btnConvertir.Location = New Point(280, 349)
+        btnConvertir.Margin = New Padding(3, 4, 3, 4)
         btnConvertir.Name = "btnConvertir"
-        btnConvertir.Size = New Size(131, 42)
+        btnConvertir.Size = New Size(150, 42)
         btnConvertir.TabIndex = 10
         btnConvertir.Text = "Convertir"
         btnConvertir.UseVisualStyleBackColor = True
         ' 
         ' txtMonto
         ' 
-        txtMonto.Location = New Point(60, 268)
+        txtMonto.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtMonto.Location = New Point(67, 349)
+        txtMonto.Margin = New Padding(3, 4, 3, 4)
         txtMonto.Name = "txtMonto"
-        txtMonto.Size = New Size(161, 23)
+        txtMonto.Size = New Size(183, 38)
         txtMonto.TabIndex = 9
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label6.Location = New Point(24, 261)
+        Label6.Location = New Point(27, 348)
         Label6.Name = "Label6"
-        Label6.Size = New Size(34, 30)
+        Label6.Size = New Size(44, 37)
         Label6.TabIndex = 8
         Label6.Text = "S/"
         ' 
@@ -125,9 +131,9 @@ Partial Class Monedas
         ' 
         MontoenSoles.AutoSize = True
         MontoenSoles.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        MontoenSoles.Location = New Point(24, 224)
+        MontoenSoles.Location = New Point(27, 299)
         MontoenSoles.Name = "MontoenSoles"
-        MontoenSoles.Size = New Size(157, 20)
+        MontoenSoles.Size = New Size(202, 25)
         MontoenSoles.TabIndex = 7
         MontoenSoles.Text = "Monto Personalizado"
         ' 
@@ -136,9 +142,10 @@ Partial Class Monedas
         btn50.BackgroundImage = My.Resources.Resources.Moneda
         btn50.BackgroundImageLayout = ImageLayout.Zoom
         btn50.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn50.Location = New Point(337, 132)
+        btn50.Location = New Point(385, 176)
+        btn50.Margin = New Padding(3, 4, 3, 4)
         btn50.Name = "btn50"
-        btn50.Size = New Size(151, 66)
+        btn50.Size = New Size(173, 88)
         btn50.TabIndex = 6
         btn50.Text = "S/50.00"
         btn50.UseVisualStyleBackColor = True
@@ -148,9 +155,10 @@ Partial Class Monedas
         btn20.BackgroundImage = My.Resources.Resources.Moneda
         btn20.BackgroundImageLayout = ImageLayout.Zoom
         btn20.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn20.Location = New Point(168, 132)
+        btn20.Location = New Point(192, 176)
+        btn20.Margin = New Padding(3, 4, 3, 4)
         btn20.Name = "btn20"
-        btn20.Size = New Size(145, 66)
+        btn20.Size = New Size(166, 88)
         btn20.TabIndex = 5
         btn20.Text = "S/20.00"
         btn20.UseVisualStyleBackColor = True
@@ -160,9 +168,10 @@ Partial Class Monedas
         btn10.BackgroundImage = My.Resources.Resources.Moneda
         btn10.BackgroundImageLayout = ImageLayout.Zoom
         btn10.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn10.Location = New Point(9, 132)
+        btn10.Location = New Point(10, 176)
+        btn10.Margin = New Padding(3, 4, 3, 4)
         btn10.Name = "btn10"
-        btn10.Size = New Size(146, 66)
+        btn10.Size = New Size(167, 88)
         btn10.TabIndex = 4
         btn10.Text = "S/10.00"
         btn10.UseVisualStyleBackColor = True
@@ -172,9 +181,10 @@ Partial Class Monedas
         btn5.BackgroundImage = My.Resources.Resources.Moneda
         btn5.BackgroundImageLayout = ImageLayout.Zoom
         btn5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn5.Location = New Point(337, 47)
+        btn5.Location = New Point(385, 63)
+        btn5.Margin = New Padding(3, 4, 3, 4)
         btn5.Name = "btn5"
-        btn5.Size = New Size(151, 66)
+        btn5.Size = New Size(173, 88)
         btn5.TabIndex = 3
         btn5.Text = "S/5.00"
         btn5.UseVisualStyleBackColor = True
@@ -184,9 +194,10 @@ Partial Class Monedas
         btn2.BackgroundImage = My.Resources.Resources.Moneda
         btn2.BackgroundImageLayout = ImageLayout.Zoom
         btn2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn2.Location = New Point(168, 47)
+        btn2.Location = New Point(192, 63)
+        btn2.Margin = New Padding(3, 4, 3, 4)
         btn2.Name = "btn2"
-        btn2.Size = New Size(145, 66)
+        btn2.Size = New Size(166, 88)
         btn2.TabIndex = 2
         btn2.Text = "S/2.00"
         btn2.UseVisualStyleBackColor = True
@@ -196,9 +207,10 @@ Partial Class Monedas
         btn1.BackgroundImage = My.Resources.Resources.Moneda
         btn1.BackgroundImageLayout = ImageLayout.Zoom
         btn1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold)
-        btn1.Location = New Point(9, 47)
+        btn1.Location = New Point(10, 63)
+        btn1.Margin = New Padding(3, 4, 3, 4)
         btn1.Name = "btn1"
-        btn1.Size = New Size(146, 66)
+        btn1.Size = New Size(167, 88)
         btn1.TabIndex = 1
         btn1.Text = "S/1.00"
         btn1.UseVisualStyleBackColor = True
@@ -207,9 +219,9 @@ Partial Class Monedas
         ' 
         SeleccionarMonto.AutoSize = True
         SeleccionarMonto.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        SeleccionarMonto.Location = New Point(18, 11)
+        SeleccionarMonto.Location = New Point(10, 15)
         SeleccionarMonto.Name = "SeleccionarMonto"
-        SeleccionarMonto.Size = New Size(148, 20)
+        SeleccionarMonto.Size = New Size(191, 25)
         SeleccionarMonto.TabIndex = 0
         SeleccionarMonto.Text = "Selecciona el Monto"
         ' 
@@ -218,9 +230,10 @@ Partial Class Monedas
         Panel2.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         Panel2.Controls.Add(btnMonedas)
         Panel2.Controls.Add(btnVolver)
-        Panel2.Location = New Point(1, 577)
+        Panel2.Location = New Point(1, 686)
+        Panel2.Margin = New Padding(3, 4, 3, 4)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(505, 112)
+        Panel2.Size = New Size(577, 149)
         Panel2.TabIndex = 6
         ' 
         ' btnMonedas
@@ -229,23 +242,25 @@ Partial Class Monedas
         btnMonedas.BackgroundImage = My.Resources.Resources.Moneda
         btnMonedas.BackgroundImageLayout = ImageLayout.Zoom
         btnMonedas.Font = New Font("Segoe UI Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnMonedas.ImageAlign = ContentAlignment.MiddleLeft
-        btnMonedas.Location = New Point(213, 13)
+        btnMonedas.ImageAlign = ContentAlignment.BottomCenter
+        btnMonedas.Location = New Point(239, 18)
+        btnMonedas.Margin = New Padding(3, 4, 3, 4)
         btnMonedas.Name = "btnMonedas"
-        btnMonedas.Size = New Size(280, 64)
+        btnMonedas.Size = New Size(320, 81)
         btnMonedas.TabIndex = 1
         btnMonedas.Text = "Obtener Monedas"
-        btnMonedas.TextAlign = ContentAlignment.BottomCenter
         btnMonedas.UseVisualStyleBackColor = False
         ' 
         ' btnVolver
         ' 
-        btnVolver.BackgroundImage = My.Resources.Resources.Flecha
+        btnVolver.BackgroundImage = CType(resources.GetObject("btnVolver.BackgroundImage"), Image)
+        btnVolver.BackgroundImageLayout = ImageLayout.Stretch
         btnVolver.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnVolver.Image = My.Resources.Resources.Flecha
-        btnVolver.Location = New Point(16, 13)
+        btnVolver.ForeColor = SystemColors.ButtonHighlight
+        btnVolver.Location = New Point(11, 17)
+        btnVolver.Margin = New Padding(3, 4, 3, 4)
         btnVolver.Name = "btnVolver"
-        btnVolver.Size = New Size(164, 64)
+        btnVolver.Size = New Size(179, 82)
         btnVolver.TabIndex = 0
         btnVolver.Text = "Volver"
         btnVolver.UseVisualStyleBackColor = True
@@ -259,17 +274,19 @@ Partial Class Monedas
         Panel3.Controls.Add(lblSaldo)
         Panel3.Controls.Add(label7)
         Panel3.Controls.Add(Label2)
-        Panel3.Location = New Point(520, 258)
+        Panel3.Location = New Point(591, 260)
+        Panel3.Margin = New Padding(3, 4, 3, 4)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(513, 431)
+        Panel3.Size = New Size(586, 575)
         Panel3.TabIndex = 7
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Image = My.Resources.Resources.Moneda
-        PictureBox2.Location = New Point(91, 35)
+        PictureBox2.Location = New Point(104, 47)
+        PictureBox2.Margin = New Padding(3, 4, 3, 4)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(86, 85)
+        PictureBox2.Size = New Size(98, 113)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox2.TabIndex = 4
         PictureBox2.TabStop = False
@@ -277,9 +294,10 @@ Partial Class Monedas
         ' PictureBox3
         ' 
         PictureBox3.Image = My.Resources.Resources.oso_v2
-        PictureBox3.Location = New Point(270, 277)
+        PictureBox3.Location = New Point(309, 369)
+        PictureBox3.Margin = New Padding(3, 4, 3, 4)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(243, 160)
+        PictureBox3.Size = New Size(278, 213)
         PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox3.TabIndex = 3
         PictureBox3.TabStop = False
@@ -289,18 +307,19 @@ Partial Class Monedas
         Panel4.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(255))
         Panel4.Controls.Add(Label9)
         Panel4.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Panel4.Location = New Point(82, 132)
+        Panel4.Location = New Point(94, 176)
+        Panel4.Margin = New Padding(3, 4, 3, 4)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(351, 123)
+        Panel4.Size = New Size(401, 164)
         Panel4.TabIndex = 2
         ' 
         ' Label9
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(33, 78)
+        Label9.Location = New Point(38, 104)
         Label9.Name = "Label9"
-        Label9.Size = New Size(307, 15)
+        Label9.Size = New Size(396, 20)
         Label9.TabIndex = 0
         Label9.Text = "Las Monedas Virtuales se usan el la Maquina de Peluches"
         ' 
@@ -308,9 +327,9 @@ Partial Class Monedas
         ' 
         lblSaldo.AutoSize = True
         lblSaldo.Font = New Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblSaldo.Location = New Point(199, 19)
+        lblSaldo.Location = New Point(227, 25)
         lblSaldo.Name = "lblSaldo"
-        lblSaldo.Size = New Size(74, 86)
+        lblSaldo.Size = New Size(91, 106)
         lblSaldo.TabIndex = 1
         lblSaldo.Text = "0"
         ' 
@@ -318,23 +337,24 @@ Partial Class Monedas
         ' 
         label7.AutoSize = True
         label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        label7.Location = New Point(22, 6)
+        label7.Location = New Point(25, 8)
         label7.Name = "label7"
-        label7.Size = New Size(144, 25)
+        label7.Size = New Size(185, 32)
         label7.TabIndex = 0
         label7.Text = "Tu saldo actual"
         ' 
         ' Monedas
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
-        ClientSize = New Size(1040, 707)
+        ClientSize = New Size(1189, 943)
         Controls.Add(Panel3)
         Controls.Add(Panel2)
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
-        FormBorderStyle = FormBorderStyle.FixedSingle
+        FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 4, 3, 4)
         MaximizeBox = False
         Name = "Monedas"
         StartPosition = FormStartPosition.CenterScreen
@@ -350,7 +370,6 @@ Partial Class Monedas
         Panel4.ResumeLayout(False)
         Panel4.PerformLayout()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox

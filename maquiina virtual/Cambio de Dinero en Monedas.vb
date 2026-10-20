@@ -1,3 +1,0 @@
-﻿Public Class Cambio_de_Dinero_en_Monedas
-
-End Class
