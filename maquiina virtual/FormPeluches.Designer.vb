@@ -25,6 +25,7 @@ Partial Class FormPeluches
         components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPeluches))
         pnlJuego = New Panel()
+        picElefante = New PictureBox()
         picPremio = New PictureBox()
         picGarra = New PictureBox()
         PictureBox3 = New PictureBox()
@@ -42,15 +43,14 @@ Partial Class FormPeluches
         PictureBox1 = New PictureBox()
         tmrGarra = New Timer(components)
         btnReiniciar = New Button()
-        picElefante = New PictureBox()
         pnlJuego.SuspendLayout()
+        CType(picElefante, ComponentModel.ISupportInitialize).BeginInit()
         CType(picPremio, ComponentModel.ISupportInitialize).BeginInit()
         CType(picGarra, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(picElefante, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlJuego
@@ -63,6 +63,16 @@ Partial Class FormPeluches
         pnlJuego.Name = "pnlJuego"
         pnlJuego.Size = New Size(334, 491)
         pnlJuego.TabIndex = 0
+        ' 
+        ' picElefante
+        ' 
+        picElefante.Image = My.Resources.Resources.image__3_
+        picElefante.Location = New Point(33, 255)
+        picElefante.Name = "picElefante"
+        picElefante.Size = New Size(66, 86)
+        picElefante.SizeMode = PictureBoxSizeMode.StretchImage
+        picElefante.TabIndex = 11
+        picElefante.TabStop = False
         ' 
         ' picPremio
         ' 
@@ -135,8 +145,8 @@ Partial Class FormPeluches
         ' 
         ' btnBajarGarra
         ' 
-        btnBajarGarra.BackColor = Color.FromArgb(0, 192, 0)
-        btnBajarGarra.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0)
+        btnBajarGarra.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        btnBajarGarra.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnBajarGarra.ForeColor = Color.White
         btnBajarGarra.Location = New Point(362, 266)
         btnBajarGarra.Name = "btnBajarGarra"
@@ -147,7 +157,7 @@ Partial Class FormPeluches
         ' 
         ' GroupBox1
         ' 
-        GroupBox1.BackColor = Color.FromArgb(192, 192, 255)
+        GroupBox1.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         GroupBox1.Controls.Add(lblIntentos)
         GroupBox1.Controls.Add(lblMonedas)
         GroupBox1.Location = New Point(341, 326)
@@ -177,7 +187,7 @@ Partial Class FormPeluches
         ' 
         ' GroupBox2
         ' 
-        GroupBox2.BackColor = Color.FromArgb(255, 192, 192)
+        GroupBox2.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
         GroupBox2.Controls.Add(lblMensaje)
         GroupBox2.Location = New Point(341, 444)
         GroupBox2.Name = "GroupBox2"
@@ -197,8 +207,8 @@ Partial Class FormPeluches
         ' 
         ' btnSalir
         ' 
-        btnSalir.BackColor = Color.FromArgb(192, 0, 0)
-        btnSalir.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0)
+        btnSalir.BackColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        btnSalir.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnSalir.ForeColor = Color.White
         btnSalir.Location = New Point(362, 517)
         btnSalir.Name = "btnSalir"
@@ -222,8 +232,8 @@ Partial Class FormPeluches
         ' 
         ' btnReiniciar
         ' 
-        btnReiniciar.BackColor = Color.FromArgb(0, 192, 0)
-        btnReiniciar.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0)
+        btnReiniciar.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        btnReiniciar.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnReiniciar.ForeColor = Color.White
         btnReiniciar.Location = New Point(362, 568)
         btnReiniciar.Name = "btnReiniciar"
@@ -231,16 +241,6 @@ Partial Class FormPeluches
         btnReiniciar.TabIndex = 10
         btnReiniciar.Text = "Reiniciar"
         btnReiniciar.UseVisualStyleBackColor = False
-        ' 
-        ' picElefante
-        ' 
-        picElefante.Image = My.Resources.Resources.image__3_
-        picElefante.Location = New Point(33, 255)
-        picElefante.Name = "picElefante"
-        picElefante.Size = New Size(66, 86)
-        picElefante.SizeMode = PictureBoxSizeMode.StretchImage
-        picElefante.TabIndex = 11
-        picElefante.TabStop = False
         ' 
         ' FormPeluches
         ' 
@@ -263,6 +263,7 @@ Partial Class FormPeluches
         Name = "FormPeluches"
         Text = "FormPeluches"
         pnlJuego.ResumeLayout(False)
+        CType(picElefante, ComponentModel.ISupportInitialize).EndInit()
         CType(picPremio, ComponentModel.ISupportInitialize).EndInit()
         CType(picGarra, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
@@ -270,7 +271,6 @@ Partial Class FormPeluches
         GroupBox2.ResumeLayout(False)
         GroupBox2.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(picElefante, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 

@@ -83,6 +83,46 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Gemini_Generated_Image_ze27duze27duze27() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Gemini_Generated_Image_ze27duze27duze27", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image__1_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image (1)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image__2_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image (2)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image__3_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image (3)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Moneda() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Moneda", resourceCulture)

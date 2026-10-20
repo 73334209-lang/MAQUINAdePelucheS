@@ -8,3 +8,4 @@ C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\ob
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Release\net10.0-windows\maquiina virtual.AssemblyInfo.vb
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Release\net10.0-windows\maquiina virtual.vbproj.CoreCompileInputs.cache
 C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Release\net10.0-windows\maquiina virtual.sourcelink.json
+C:\Users\EQUIPO\OneDrive\Documentos\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Release\net10.0-windows\maquiina_virtual.FormPeluches.resources
