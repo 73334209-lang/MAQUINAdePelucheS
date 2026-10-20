@@ -63,66 +63,6 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property _1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("1", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property _2() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("2", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property _3() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("3", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property _4() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("4", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Captura_de_pantalla_2026_10_19_181724() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Captura de pantalla 2026-10-19 181724", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property elefante() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("elefante", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property Flecha() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Flecha", resourceCulture)
@@ -165,7 +105,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property image__2_() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("image__2_", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("image (2)", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -176,16 +116,6 @@ Namespace My.Resources
         Friend ReadOnly Property image__3_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("image (3)", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property images__2_() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("images (2)", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -236,16 +166,6 @@ Namespace My.Resources
         Friend ReadOnly Property titulo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("titulo", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property watermarked_img_15318072709546256769() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("watermarked_img_15318072709546256769", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
