@@ -39,7 +39,7 @@ Partial Class FormInicio
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Location = New Point(0, 0)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(650, 398)
+        PictureBox1.Size = New Size(635, 398)
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
         ' 
@@ -73,9 +73,9 @@ Partial Class FormInicio
         Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), Image)
         Button1.BackgroundImageLayout = ImageLayout.Stretch
         Button1.ForeColor = SystemColors.ButtonHighlight
-        Button1.Location = New Point(254, 327)
+        Button1.Location = New Point(239, 327)
         Button1.Name = "Button1"
-        Button1.Size = New Size(118, 32)
+        Button1.Size = New Size(150, 32)
         Button1.TabIndex = 4
         Button1.TextAlign = ContentAlignment.TopCenter
         Button1.UseVisualStyleBackColor = False
@@ -104,7 +104,7 @@ Partial Class FormInicio
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ButtonHighlight
-        ClientSize = New Size(647, 396)
+        ClientSize = New Size(632, 396)
         Controls.Add(Button2)
         Controls.Add(Label1)
         Controls.Add(Button1)

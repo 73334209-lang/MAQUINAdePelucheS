@@ -28,27 +28,23 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        ' Verificar que los campos no estén vacíos
-        If TextBox1.Text.Trim() = "" Then
-            MessageBox.Show("Ingresa tu usuario o correo.", "Aviso",
-                            MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            TextBox1.Focus()
-            Exit Sub
+        If TextBox1.Text.Trim() = "admin" AndAlso TextBox2.Text = "peluche123" Then
+
+            MessageBox.Show("¡Bienvenido a Máquina de Peluches!",
+                            "Acceso correcto",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information)
+
+            ' Aquí puedes abrir tu siguiente formulario
+
+        Else
+
+            MessageBox.Show("Usuario o contraseña incorrectos.",
+                            "Acceso denegado",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Warning)
+
         End If
-
-        If TextBox2.Text = "" Then
-            MessageBox.Show("Ingresa tu contraseña.", "Aviso",
-                            MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            TextBox2.Focus()
-            Exit Sub
-        End If
-
-        ' Todavía no se ha conectado una base de datos
-        MessageBox.Show("Los campos están completos. Falta validar el acceso.",
-                        "Máquina de Peluches",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information)
-
-
     End Sub
 
 End Class
