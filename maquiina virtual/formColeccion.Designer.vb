@@ -52,7 +52,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Image = My.Resources.Resources.Captura_de_pantalla_2026_10_19_181724
+        'PictureBox1.Image = My.Resources.Resources.Captura_de_pantalla_2026_10_19_181724
         PictureBox1.Location = New Point(2, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(420, 70)
@@ -133,7 +133,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.Image = My.Resources.Resources.elefante
+        'PictureBox2.Image = My.Resources.Resources.elefante
         PictureBox2.Location = New Point(3, 3)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(71, 66)
@@ -143,7 +143,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox3
         ' 
-        PictureBox3.Image = My.Resources.Resources.images__2_
+        'PictureBox3.Image = My.Resources.Resources.images__2_
         PictureBox3.Location = New Point(80, 3)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(71, 66)
@@ -153,7 +153,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox4
         ' 
-        PictureBox4.Image = My.Resources.Resources._4
+        'PictureBox4.Image = My.Resources.Resources._4
         PictureBox4.Location = New Point(157, 3)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(71, 66)
@@ -163,7 +163,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox5
         ' 
-        PictureBox5.Image = My.Resources.Resources._3
+        'PictureBox5.Image = My.Resources.Resources._3
         PictureBox5.Location = New Point(234, 3)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(71, 66)
@@ -173,7 +173,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox6
         ' 
-        PictureBox6.Image = My.Resources.Resources._2
+        'PictureBox6.Image = My.Resources.Resources._2
         PictureBox6.Location = New Point(3, 104)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(71, 66)
@@ -183,7 +183,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox7
         ' 
-        PictureBox7.Image = My.Resources.Resources._1
+        'PictureBox7.Image = My.Resources.Resources._1
         PictureBox7.Location = New Point(80, 104)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(71, 66)
@@ -193,7 +193,7 @@ Partial Class formColeccion
         ' 
         ' PictureBox8
         ' 
-        PictureBox8.Image = My.Resources.Resources.watermarked_img_15318072709546256769
+        'PictureBox8.Image = My.Resources.Resources.watermarked_img_15318072709546256769
         PictureBox8.Location = New Point(157, 104)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(71, 66)

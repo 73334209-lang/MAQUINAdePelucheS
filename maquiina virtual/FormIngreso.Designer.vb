@@ -39,17 +39,19 @@ Partial Class FormIngreso
         PictureBox1.BackColor = SystemColors.GradientInactiveCaption
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox1.Dock = DockStyle.Fill
         PictureBox1.ErrorImage = Nothing
         PictureBox1.InitialImage = Nothing
-        PictureBox1.Location = New Point(-1, 0)
+        PictureBox1.Location = New Point(0, 0)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(700, 393)
+        PictureBox1.Size = New Size(697, 391)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
         ' 
         ' Panel1
         ' 
+        Panel1.Anchor = AnchorStyles.None
         Panel1.BackColor = Color.White
         Panel1.BorderStyle = BorderStyle.FixedSingle
         Panel1.Controls.Add(Panel2)
@@ -69,6 +71,7 @@ Partial Class FormIngreso
         ' 
         ' Label1
         ' 
+        Label1.Anchor = AnchorStyles.None
         Label1.AutoSize = True
         Label1.BackColor = SystemColors.GradientInactiveCaption
         Label1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
@@ -83,12 +86,13 @@ Partial Class FormIngreso
         ' 
         ' Label2
         ' 
+        Label2.Anchor = AnchorStyles.None
         Label2.AutoSize = True
         Label2.BackColor = SystemColors.GradientInactiveCaption
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Fuchsia
         Label2.ImageAlign = ContentAlignment.TopCenter
-        Label2.Location = New Point(280, 313)
+        Label2.Location = New Point(289, 313)
         Label2.Name = "Label2"
         Label2.Size = New Size(141, 21)
         Label2.TabIndex = 4

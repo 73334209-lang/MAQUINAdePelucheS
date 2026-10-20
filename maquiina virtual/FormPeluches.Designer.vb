@@ -28,7 +28,7 @@ Partial Class FormPeluches
         picElefante = New PictureBox()
         picPremio = New PictureBox()
         picGarra = New PictureBox()
-        PictureBox3 = New PictureBox()
+        picPeluches = New PictureBox()
         btnDerecha = New Button()
         btnIzquierda = New Button()
         Button3 = New Button()
@@ -43,22 +43,43 @@ Partial Class FormPeluches
         PictureBox1 = New PictureBox()
         tmrGarra = New Timer(components)
         btnReiniciar = New Button()
+        picDino = New PictureBox()
+        picPato = New PictureBox()
+        picPinguino = New PictureBox()
+        picOso = New PictureBox()
+        picConejo = New PictureBox()
+        picPanda = New PictureBox()
+        picUnicornio = New PictureBox()
         pnlJuego.SuspendLayout()
         CType(picElefante, ComponentModel.ISupportInitialize).BeginInit()
         CType(picPremio, ComponentModel.ISupportInitialize).BeginInit()
         CType(picGarra, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picPeluches, ComponentModel.ISupportInitialize).BeginInit()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picDino, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picPato, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picPinguino, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picOso, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picConejo, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picPanda, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picUnicornio, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlJuego
         ' 
+        pnlJuego.Controls.Add(picUnicornio)
+        pnlJuego.Controls.Add(picPanda)
+        pnlJuego.Controls.Add(picConejo)
+        pnlJuego.Controls.Add(picOso)
+        pnlJuego.Controls.Add(picPinguino)
+        pnlJuego.Controls.Add(picPato)
+        pnlJuego.Controls.Add(picDino)
         pnlJuego.Controls.Add(picElefante)
         pnlJuego.Controls.Add(picPremio)
         pnlJuego.Controls.Add(picGarra)
-        pnlJuego.Controls.Add(PictureBox3)
+        pnlJuego.Controls.Add(picPeluches)
         pnlJuego.Location = New Point(1, 71)
         pnlJuego.Name = "pnlJuego"
         pnlJuego.Size = New Size(334, 491)
@@ -67,7 +88,7 @@ Partial Class FormPeluches
         ' picElefante
         ' 
         picElefante.Image = My.Resources.Resources.image__3_
-        picElefante.Location = New Point(33, 255)
+        picElefante.Location = New Point(28, 260)
         picElefante.Name = "picElefante"
         picElefante.Size = New Size(66, 86)
         picElefante.SizeMode = PictureBoxSizeMode.StretchImage
@@ -92,15 +113,15 @@ Partial Class FormPeluches
         picGarra.TabIndex = 10
         picGarra.TabStop = False
         ' 
-        ' PictureBox3
+        ' picPeluches
         ' 
-        PictureBox3.Image = My.Resources.Resources.Gemini_Generated_Image_ze27duze27duze27
-        PictureBox3.Location = New Point(17, 3)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(314, 467)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 0
-        PictureBox3.TabStop = False
+        picPeluches.Image = My.Resources.Resources.Gemini_Generated_Image_ze27duze27duze27
+        picPeluches.Location = New Point(17, 3)
+        picPeluches.Name = "picPeluches"
+        picPeluches.Size = New Size(314, 467)
+        picPeluches.SizeMode = PictureBoxSizeMode.StretchImage
+        picPeluches.TabIndex = 0
+        picPeluches.TabStop = False
         ' 
         ' btnDerecha
         ' 
@@ -242,6 +263,76 @@ Partial Class FormPeluches
         btnReiniciar.Text = "Reiniciar"
         btnReiniciar.UseVisualStyleBackColor = False
         ' 
+        ' picDino
+        ' 
+        picDino.Image = CType(resources.GetObject("picDino.Image"), Image)
+        picDino.Location = New Point(117, 260)
+        picDino.Name = "picDino"
+        picDino.Size = New Size(66, 86)
+        picDino.SizeMode = PictureBoxSizeMode.StretchImage
+        picDino.TabIndex = 12
+        picDino.TabStop = False
+        ' 
+        ' picPato
+        ' 
+        picPato.Image = CType(resources.GetObject("picPato.Image"), Image)
+        picPato.Location = New Point(28, 185)
+        picPato.Name = "picPato"
+        picPato.Size = New Size(55, 69)
+        picPato.SizeMode = PictureBoxSizeMode.StretchImage
+        picPato.TabIndex = 13
+        picPato.TabStop = False
+        ' 
+        ' picPinguino
+        ' 
+        picPinguino.Image = CType(resources.GetObject("picPinguino.Image"), Image)
+        picPinguino.Location = New Point(88, 182)
+        picPinguino.Name = "picPinguino"
+        picPinguino.Size = New Size(59, 72)
+        picPinguino.SizeMode = PictureBoxSizeMode.StretchImage
+        picPinguino.TabIndex = 14
+        picPinguino.TabStop = False
+        ' 
+        ' picOso
+        ' 
+        picOso.Image = CType(resources.GetObject("picOso.Image"), Image)
+        picOso.Location = New Point(144, 168)
+        picOso.Name = "picOso"
+        picOso.Size = New Size(66, 72)
+        picOso.SizeMode = PictureBoxSizeMode.StretchImage
+        picOso.TabIndex = 15
+        picOso.TabStop = False
+        ' 
+        ' picConejo
+        ' 
+        picConejo.Image = CType(resources.GetObject("picConejo.Image"), Image)
+        picConejo.Location = New Point(216, 173)
+        picConejo.Name = "picConejo"
+        picConejo.Size = New Size(56, 67)
+        picConejo.SizeMode = PictureBoxSizeMode.StretchImage
+        picConejo.TabIndex = 16
+        picConejo.TabStop = False
+        ' 
+        ' picPanda
+        ' 
+        picPanda.Image = CType(resources.GetObject("picPanda.Image"), Image)
+        picPanda.Location = New Point(260, 227)
+        picPanda.Name = "picPanda"
+        picPanda.Size = New Size(56, 67)
+        picPanda.SizeMode = PictureBoxSizeMode.StretchImage
+        picPanda.TabIndex = 17
+        picPanda.TabStop = False
+        ' 
+        ' picUnicornio
+        ' 
+        picUnicornio.Image = CType(resources.GetObject("picUnicornio.Image"), Image)
+        picUnicornio.Location = New Point(188, 260)
+        picUnicornio.Name = "picUnicornio"
+        picUnicornio.Size = New Size(66, 86)
+        picUnicornio.SizeMode = PictureBoxSizeMode.StretchImage
+        picUnicornio.TabIndex = 18
+        picUnicornio.TabStop = False
+        ' 
         ' FormPeluches
         ' 
         AutoScaleDimensions = New SizeF(7.0F, 15.0F)
@@ -266,11 +357,18 @@ Partial Class FormPeluches
         CType(picElefante, ComponentModel.ISupportInitialize).EndInit()
         CType(picPremio, ComponentModel.ISupportInitialize).EndInit()
         CType(picGarra, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        CType(picPeluches, ComponentModel.ISupportInitialize).EndInit()
         GroupBox1.ResumeLayout(False)
         GroupBox2.ResumeLayout(False)
         GroupBox2.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(picDino, ComponentModel.ISupportInitialize).EndInit()
+        CType(picPato, ComponentModel.ISupportInitialize).EndInit()
+        CType(picPinguino, ComponentModel.ISupportInitialize).EndInit()
+        CType(picOso, ComponentModel.ISupportInitialize).EndInit()
+        CType(picConejo, ComponentModel.ISupportInitialize).EndInit()
+        CType(picPanda, ComponentModel.ISupportInitialize).EndInit()
+        CType(picUnicornio, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -288,9 +386,16 @@ Partial Class FormPeluches
     Friend WithEvents btnSalir As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents picGarra As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents picPeluches As PictureBox
     Friend WithEvents tmrGarra As Timer
     Friend WithEvents picPremio As PictureBox
     Friend WithEvents btnReiniciar As Button
     Friend WithEvents picElefante As PictureBox
+    Friend WithEvents picDino As PictureBox
+    Friend WithEvents picPato As PictureBox
+    Friend WithEvents picOso As PictureBox
+    Friend WithEvents picPinguino As PictureBox
+    Friend WithEvents picPanda As PictureBox
+    Friend WithEvents picConejo As PictureBox
+    Friend WithEvents picUnicornio As PictureBox
 End Class
