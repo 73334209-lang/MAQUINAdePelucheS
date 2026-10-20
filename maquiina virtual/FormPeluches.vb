@@ -33,6 +33,7 @@ Public Class FormPeluches
         sender As Object,
         e As EventArgs
     ) Handles MyBase.Load
+
         picGarra.BringToFront()
         'Permite utilizar las flechas del teclado
         Me.KeyPreview = True
@@ -41,18 +42,9 @@ Public Class FormPeluches
         posicionInicialX = picGarra.Left
         posicionInicialY = picGarra.Top
 
-        'La garra debe detenerse antes del área de monedas.
-        '
-        'Esta fórmula utiliza el límite inferior de picPeluches.
-        'Asegúrate de que picPeluches cubra únicamente el área
-        'donde están los peluches.
-        limiteInferiorGarra =
-            picPeluches.Top +
-            picPeluches.Height -
-            picGarra.Height -
-            10
+        'Ajustar la altura de bajada de la garra
+        limiteInferiorGarra = picPeluches.Top + (picPeluches.Height \ 2)
 
-        'Evitar que el límite sea negativo
         If limiteInferiorGarra < posicionInicialY Then
             limiteInferiorGarra = posicionInicialY + 100
         End If
@@ -62,10 +54,6 @@ Public Class FormPeluches
 
         bajando = False
         subiendo = False
-
-        'Configurar la imagen donde aparece el premio ganado
-        picPremio.Visible = False
-        picPremio.SizeMode = PictureBoxSizeMode.Zoom
 
         ActualizarInformacion()
 
@@ -100,11 +88,8 @@ Public Class FormPeluches
 
     Private Sub ActualizarInformacion()
 
-        lblMonedas.Text =
-            "Monedas: " & monedas.ToString()
-
-        lblIntentos.Text =
-            "Intentos: " & intentos.ToString()
+        lblMonedas.Text = "Monedas: " & monedas.ToString()
+        lblIntentos.Text = "Intentos: " & intentos.ToString()
 
     End Sub
 
@@ -114,29 +99,25 @@ Public Class FormPeluches
     '=============================
 
     Private Sub MoverGarra(direccion As Integer)
+
         If bajando OrElse subiendo Then
             Return
         End If
 
-        ' 2. Primero se declara y calcula nuevaX
         Dim nuevaX As Integer = picGarra.Left + direccion
 
-        ' 3. Límite izquierdo
+        'Límite izquierdo
         If nuevaX < 10 Then
             nuevaX = 10
         End If
 
-        ' 4. Límite derecho
-        Dim limiteDerecho As Integer =
-            pnlJuego.ClientSize.Width -
-            picGarra.Width -
-            10
+        'Límite derecho
+        Dim limiteDerecho As Integer = pnlJuego.ClientSize.Width - picGarra.Width - 10
 
         If nuevaX > limiteDerecho Then
             nuevaX = limiteDerecho
         End If
 
-        ' 5. Finalmente se asigna la posición
         picGarra.Left = nuevaX
         picGarra.BringToFront()
 
@@ -144,76 +125,38 @@ Public Class FormPeluches
 
 
     '=============================
-    ' BOTÓN IZQUIERDA
+    ' BOTONES DE CONTROL E INPUTS
     '=============================
 
-    Private Sub btnIzquierda_Click(
-        sender As Object,
-        e As EventArgs
-    ) Handles btnIzquierda.Click
-
+    Private Sub btnIzquierda_Click(sender As Object, e As EventArgs) Handles btnIzquierda.Click
         MoverGarra(-movimientoHorizontal)
-
     End Sub
 
-
-    '=============================
-    ' BOTÓN DERECHA
-    '=============================
-
-    Private Sub btnDerecha_Click(
-        sender As Object,
-        e As EventArgs
-    ) Handles btnDerecha.Click
-
+    Private Sub btnDerecha_Click(sender As Object, e As EventArgs) Handles btnDerecha.Click
         MoverGarra(movimientoHorizontal)
-
     End Sub
 
-
-    '=============================
-    ' TECLADO
-    '=============================
-
-    Private Sub FormPeluches_KeyDown(
-        sender As Object,
-        e As KeyEventArgs
-    ) Handles MyBase.KeyDown
+    Private Sub FormPeluches_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
 
         If bajando OrElse subiendo Then
             Return
         End If
 
         Select Case e.KeyCode
-
             Case Keys.Left
                 MoverGarra(-movimientoHorizontal)
-
             Case Keys.Right
                 MoverGarra(movimientoHorizontal)
-
             Case Keys.Down
                 BajarGarra()
-
             Case Keys.Up
                 SubirGarra()
-
         End Select
 
     End Sub
 
-
-    '=============================
-    ' BOTÓN BAJAR GARRA
-    '=============================
-
-    Private Sub btnBajarGarra_Click(
-        sender As Object,
-        e As EventArgs
-    ) Handles btnBajarGarra.Click
-
+    Private Sub btnBajarGarra_Click(sender As Object, e As EventArgs) Handles btnBajarGarra.Click
         BajarGarra()
-
     End Sub
 
 
@@ -228,7 +171,6 @@ Public Class FormPeluches
             Return
         End If
 
-        'Evita iniciar otra jugada durante una animación
         If bajando OrElse subiendo Then
             Return
         End If
@@ -243,7 +185,6 @@ Public Class FormPeluches
         bajando = True
         subiendo = False
 
-        'El Timer comienza solamente al presionar Bajar garra
         tmrGarra.Start()
 
     End Sub
@@ -269,45 +210,34 @@ Public Class FormPeluches
     ' ANIMACIÓN DE LA GARRA
     '=============================
 
-    Private Sub tmrGarra_Tick(
-        sender As Object,
-        e As EventArgs
-    ) Handles tmrGarra.Tick
+    Private Sub tmrGarra_Tick(sender As Object, e As EventArgs) Handles tmrGarra.Tick
+
+        picGarra.BringToFront()
 
         If bajando Then
 
             picGarra.Top += velocidadVertical
 
-            'Detener la garra dentro del área de premios
             If picGarra.Top >= limiteInferiorGarra Then
-
                 picGarra.Top = limiteInferiorGarra
-
                 bajando = False
                 subiendo = True
 
-                'Buscar y mostrar el premio
+                ' Evaluar si atrapa premio al tocar el punto más bajo
                 SeleccionarPremio()
-
             End If
 
         ElseIf subiendo Then
 
             picGarra.Top -= velocidadVertical
 
-            'Regresar a la posición inicial
             If picGarra.Top <= posicionInicialY Then
-
                 picGarra.Top = posicionInicialY
-
                 bajando = False
                 subiendo = False
-
                 tmrGarra.Stop()
 
-                lblMensaje.Text =
-                    "Puedes realizar otro intento."
-
+                lblMensaje.Text = "Puedes realizar otro intento."
             End If
 
         End If
@@ -316,74 +246,42 @@ Public Class FormPeluches
 
 
     '=============================
-    ' OBTENER RECTÁNGULO REAL
-    '=============================
-
-    Private Function ObtenerRectanguloEnPantalla(
-        control As Control
-    ) As Rectangle
-
-        Dim posicion As Point =
-            control.Parent.PointToScreen(control.Location)
-
-        Return New Rectangle(
-            posicion.X,
-            posicion.Y,
-            control.Width,
-            control.Height
-        )
-
-    End Function
-
-
-    '=============================
-    ' SELECCIONAR PREMIO
+    ' SELECCIONAR PREMIO (CON AZAR Y PROBABILIDAD)
     '=============================
 
     Private Sub SeleccionarPremio()
 
         Dim candidatos As New List(Of PictureBox)
+        Dim centroGarraX As Integer = picGarra.Left + (picGarra.Width \ 2)
 
-        Dim rectanguloGarra As Rectangle =
-            ObtenerRectanguloEnPantalla(picGarra)
-
+        ' 1. Detectar peluches debajo de la garra
         For Each premio As PictureBox In ObtenerPremios()
+            If premio IsNot Nothing AndAlso premio.Visible Then
+                Dim izquierdaPeluche As Integer = premio.Left
+                Dim derechaPeluche As Integer = premio.Left + premio.Width
 
-            If premio IsNot Nothing AndAlso
-               premio.Visible AndAlso
-               premio.Image IsNot Nothing Then
-
-                Dim rectanguloPremio As Rectangle =
-                    ObtenerRectanguloEnPantalla(premio)
-
-                If rectanguloGarra.IntersectsWith(
-                    rectanguloPremio
-                ) Then
-
+                If centroGarraX >= izquierdaPeluche AndAlso centroGarraX <= derechaPeluche Then
                     candidatos.Add(premio)
-
                 End If
-
             End If
-
         Next
 
+        ' Si no está sobre ningún peluche
         If candidatos.Count = 0 Then
-
-            lblMensaje.Text =
-                "La garra no alcanzó ningún peluche."
-
+            lblMensaje.Text = "La garra no alcanzó ningún peluche."
             Return
-
         End If
 
-        'Si hay más de un peluche debajo,
-        'se selecciona uno aleatoriamente.
-        Dim indice As Integer =
-            generador.Next(0, candidatos.Count)
+        ' 2. Agregar probabilidad de fallo (Ejemplo: 40% de éxito)
+        Dim probabilidadExito As Integer = 40
+        If generador.Next(1, 101) > probabilidadExito Then
+            lblMensaje.Text = "¡El peluche se le resbaló a la garra!"
+            Return
+        End If
 
-        Dim premioSeleccionado As PictureBox =
-            candidatos(indice)
+        ' 3. Elegir un peluche aleatorio entre los alcanzados
+        Dim indice As Integer = generador.Next(0, candidatos.Count)
+        Dim premioSeleccionado As PictureBox = candidatos(indice)
 
         MostrarPremio(premioSeleccionado)
 
@@ -394,63 +292,32 @@ Public Class FormPeluches
     ' MOSTRAR EL PREMIO GANADO
     '=============================
 
-    Private Sub MostrarPremio(
-        premioSeleccionado As PictureBox
-    )
+    Private Sub MostrarPremio(premioSeleccionado As PictureBox)
 
-        If premioSeleccionado Is Nothing Then
-
-            lblMensaje.Text =
-                "No se seleccionó ningún premio."
-
+        If premioSeleccionado Is Nothing OrElse premioSeleccionado.Image Is Nothing Then
+            lblMensaje.Text = "No se pudo obtener la imagen del premio."
             Return
-
         End If
 
-        If premioSeleccionado.Image Is Nothing Then
-
-            lblMensaje.Text =
-                "El premio no tiene imagen."
-
-            Return
-
-        End If
-
-        'Eliminar la imagen anterior del área de salida
-        If picPremio.Image IsNot Nothing Then
-
-            picPremio.Image.Dispose()
-            picPremio.Image = Nothing
-
-        End If
-
-        'Copiar la imagen del peluche ganador
-        picPremio.Image =
-            New Bitmap(premioSeleccionado.Image)
-
-        picPremio.Visible = True
-
-        'Ocultar el peluche dentro de la máquina
+        ' Ocultar el peluche atrapado dentro de la máquina
         premioSeleccionado.Visible = False
 
-        lblMensaje.Text =
-            "¡Ganaste un premio!"
+        lblMensaje.Text = "¡Atrapaste un premio!"
 
+        ' Crear y mostrar la ventana emergente enviando la imagen
+        Dim ventanaGanador As New FormVictorias()
+        ventanaGanador.CargarPremio(premioSeleccionado.Image)
+        ventanaGanador.ShowDialog()
     End Sub
 
 
     '=============================
-    ' BOTÓN SALIR
+    ' BOTONES DE SALIR Y REINICIAR
     '=============================
 
-    Private Sub btnSalir_Click(
-        sender As Object,
-        e As EventArgs
-    ) Handles btnSalir.Click
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
 
-        Dim respuesta As DialogResult
-
-        respuesta = MessageBox.Show(
+        Dim respuesta As DialogResult = MessageBox.Show(
             "¿Deseas salir del juego?",
             "Salir",
             MessageBoxButtons.YesNo,
@@ -463,15 +330,7 @@ Public Class FormPeluches
 
     End Sub
 
-
-    '=============================
-    ' BOTÓN REINICIAR
-    '=============================
-
-    Private Sub btnReiniciar_Click(
-        sender As Object,
-        e As EventArgs
-    ) Handles btnReiniciar.Click
+    Private Sub btnReiniciar_Click(sender As Object, e As EventArgs) Handles btnReiniciar.Click
 
         monedas = 5
         intentos = 0
@@ -481,30 +340,17 @@ Public Class FormPeluches
 
         tmrGarra.Stop()
 
-        'Restaurar posición de la garra
         picGarra.Left = posicionInicialX
         picGarra.Top = posicionInicialY
 
-        'Mostrar nuevamente los ocho peluches
+        ' Restaurar visibilidad de todos los peluches
         For Each premio As PictureBox In ObtenerPremios()
-
-            premio.Visible = True
-
+            If premio IsNot Nothing Then
+                premio.Visible = True
+            End If
         Next
 
-        'Limpiar la zona del premio ganado
-        If picPremio.Image IsNot Nothing Then
-
-            picPremio.Image.Dispose()
-            picPremio.Image = Nothing
-
-        End If
-
-        picPremio.Visible = False
-
-        lblMensaje.Text =
-            "¡Buena suerte!"
-
+        lblMensaje.Text = "¡Buena suerte!"
         ActualizarInformacion()
 
     End Sub

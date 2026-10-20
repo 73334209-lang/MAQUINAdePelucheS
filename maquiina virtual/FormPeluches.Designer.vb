@@ -34,7 +34,6 @@ Partial Class FormPeluches
         picUnicornio = New PictureBox()
         picDino = New PictureBox()
         picElefante = New PictureBox()
-        picPremio = New PictureBox()
         picPeluches = New PictureBox()
         btnDerecha = New Button()
         btnIzquierda = New Button()
@@ -60,7 +59,6 @@ Partial Class FormPeluches
         CType(picUnicornio, ComponentModel.ISupportInitialize).BeginInit()
         CType(picDino, ComponentModel.ISupportInitialize).BeginInit()
         CType(picElefante, ComponentModel.ISupportInitialize).BeginInit()
-        CType(picPremio, ComponentModel.ISupportInitialize).BeginInit()
         CType(picPeluches, ComponentModel.ISupportInitialize).BeginInit()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
@@ -78,12 +76,11 @@ Partial Class FormPeluches
         pnlJuego.Controls.Add(picUnicornio)
         pnlJuego.Controls.Add(picDino)
         pnlJuego.Controls.Add(picElefante)
-        pnlJuego.Controls.Add(picPremio)
         pnlJuego.Controls.Add(picPeluches)
         pnlJuego.Location = New Point(1, 95)
         pnlJuego.Margin = New Padding(3, 4, 3, 4)
         pnlJuego.Name = "pnlJuego"
-        pnlJuego.Size = New Size(382, 655)
+        pnlJuego.Size = New Size(382, 654)
         pnlJuego.TabIndex = 0
         ' 
         ' picGarra
@@ -184,16 +181,6 @@ Partial Class FormPeluches
         picElefante.SizeMode = PictureBoxSizeMode.StretchImage
         picElefante.TabIndex = 11
         picElefante.TabStop = False
-        ' 
-        ' picPremio
-        ' 
-        picPremio.Location = New Point(370, 833)
-        picPremio.Margin = New Padding(3, 4, 3, 4)
-        picPremio.Name = "picPremio"
-        picPremio.Size = New Size(35, 56)
-        picPremio.TabIndex = 11
-        picPremio.TabStop = False
-        picPremio.Visible = False
         ' 
         ' picPeluches
         ' 
@@ -312,7 +299,7 @@ Partial Class FormPeluches
         ' lblMensaje
         ' 
         lblMensaje.AutoSize = True
-        lblMensaje.Location = New Point(57, 41)
+        lblMensaje.Location = New Point(24, 33)
         lblMensaje.Name = "lblMensaje"
         lblMensaje.Size = New Size(53, 20)
         lblMensaje.TabIndex = 0
@@ -379,6 +366,7 @@ Partial Class FormPeluches
         KeyPreview = True
         Margin = New Padding(3, 4, 3, 4)
         Name = "FormPeluches"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "FormPeluches"
         pnlJuego.ResumeLayout(False)
         CType(picGarra, ComponentModel.ISupportInitialize).EndInit()
@@ -390,7 +378,6 @@ Partial Class FormPeluches
         CType(picUnicornio, ComponentModel.ISupportInitialize).EndInit()
         CType(picDino, ComponentModel.ISupportInitialize).EndInit()
         CType(picElefante, ComponentModel.ISupportInitialize).EndInit()
-        CType(picPremio, ComponentModel.ISupportInitialize).EndInit()
         CType(picPeluches, ComponentModel.ISupportInitialize).EndInit()
         GroupBox1.ResumeLayout(False)
         GroupBox2.ResumeLayout(False)
@@ -414,7 +401,6 @@ Partial Class FormPeluches
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents picPeluches As PictureBox
     Friend WithEvents tmrGarra As Timer
-    Friend WithEvents picPremio As PictureBox
     Friend WithEvents btnReiniciar As Button
     Friend WithEvents picElefante As PictureBox
     Friend WithEvents picDino As PictureBox
