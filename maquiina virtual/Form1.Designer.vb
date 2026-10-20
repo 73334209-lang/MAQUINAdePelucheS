@@ -22,18 +22,30 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        FlowLayoutPanel1 = New FlowLayoutPanel()
         SuspendLayout()
+        ' 
+        ' FlowLayoutPanel1
+        ' 
+        FlowLayoutPanel1.Location = New Point(143, 116)
+        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        FlowLayoutPanel1.Size = New Size(250, 125)
+        FlowLayoutPanel1.TabIndex = 0
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Silver
-        ClientSize = New Size(834, 661)
+        ClientSize = New Size(953, 881)
+        Controls.Add(FlowLayoutPanel1)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Maquina de Peluches"
         ResumeLayout(False)
     End Sub
+
+    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
 
 End Class
