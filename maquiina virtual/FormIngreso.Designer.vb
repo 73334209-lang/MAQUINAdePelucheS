@@ -44,6 +44,7 @@ Partial Class FormIngreso
         PictureBox1.Location = New Point(-1, 0)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(700, 393)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
         ' 
@@ -108,8 +109,10 @@ Partial Class FormIngreso
         Controls.Add(Label1)
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
+        FormBorderStyle = FormBorderStyle.None
         Name = "FormIngreso"
         Text = "FormIngreso"
+        WindowState = FormWindowState.Maximized
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
         ResumeLayout(False)

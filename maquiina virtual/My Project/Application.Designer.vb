@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.maquiina_virtual.FormMenu
+            Me.MainForm = Global.maquiina_virtual.FormIngreso
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
