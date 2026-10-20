@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("maquiina virtual"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188a92439e55eefc072e9015aec3d16d9d1a0dad"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+234dc126b8900ef5272c42a1df51f870995d7a21"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("maquiina virtual"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("maquiina virtual"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
