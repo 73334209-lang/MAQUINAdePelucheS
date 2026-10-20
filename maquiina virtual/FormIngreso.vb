@@ -32,17 +32,21 @@
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
         If progreso < 100 Then
             progreso += 2
         End If
 
         Panel2.BackColor = Color.DeepPink
-
         Panel2.Width = CInt(Panel1.ClientSize.Width * progreso / 100)
 
+        ' Solo cuando la barra alcance o supere el 100% detenemos el timer y cambiamos de ventana
         If progreso >= 100 Then
             Timer1.Stop()
+            FormInicio.Show()
+            Me.Hide()
         End If
+
 
     End Sub
 End Class

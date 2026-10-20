@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj": {}
+    "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj": {
+    "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+        "projectUniqueName": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
         "projectName": "maquiina virtual",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Documentos\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\obj\\",
+        "projectPath": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\maquiina virtual.vbproj",
+        "packagesPath": "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LABORATORIO 01\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LABORATORIO 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
