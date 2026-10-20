@@ -103,7 +103,7 @@ Partial Class FormIngreso
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.MenuBar
-        ClientSize = New Size(699, 391)
+        ClientSize = New Size(697, 391)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(Panel1)
