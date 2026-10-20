@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\admin\\documents\\github\\maquinadepeluches\\maquiina virtual\\formcoleccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formcoleccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|c:\\users\\admin\\documents\\github\\maquinadepeluches\\maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9D1A841C-65FE-DD96-0A4A-95B6C51ED6DB}|maquiina virtual\\maquiina virtual.vbproj|solutionrelative:maquiina virtual\\formpeluches.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "formColeccion.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\formColeccion.vb",
+              "RelativeDocumentMoniker": "maquiina virtual\\formColeccion.vb",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\formColeccion.vb [Dise\u00F1o]",
+              "RelativeToolTip": "maquiina virtual\\formColeccion.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T23:03:32.909Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormPeluches.vb",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormPeluches.Designer.vb",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.Designer.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.Designer.vb",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormPeluches.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\FormPeluches.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\FormPeluches.vb",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Cambiar Monedas.vb",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Cambiar Monedas.vb",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Juegos.vb",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Juegos.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Juegos.vb",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Cambiar Monedas.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Cambiar Monedas.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Cambiar Monedas.vb",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MAQUINAdePelucheS\\maquiina virtual\\Form1.vb",
               "RelativeDocumentMoniker": "maquiina virtual\\Form1.vb",
