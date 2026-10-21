@@ -29,7 +29,6 @@ Partial Class FormInicio
         CheckBox1 = New CheckBox()
         Button1 = New Button()
         Label1 = New Label()
-        Button2 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -90,22 +89,12 @@ Partial Class FormInicio
         Label1.TabIndex = 5
         Label1.Text = "¿No tienes una cuenta? Registrarse"
         ' 
-        ' Button2
-        ' 
-        Button2.Location = New Point(611, 424)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
-        Button2.TabIndex = 6
-        Button2.Text = "Button2"
-        Button2.UseVisualStyleBackColor = True
-        ' 
         ' FormInicio
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ButtonHighlight
-        ClientSize = New Size(632, 396)
-        Controls.Add(Button2)
+        ClientSize = New Size(633, 398)
         Controls.Add(Label1)
         Controls.Add(Button1)
         Controls.Add(CheckBox1)
@@ -115,6 +104,7 @@ Partial Class FormInicio
         Name = "FormInicio"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormInicio"
+        WindowState = FormWindowState.Minimized
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -126,5 +116,4 @@ Partial Class FormInicio
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button2 As Button
 End Class
