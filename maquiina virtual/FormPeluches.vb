@@ -24,6 +24,16 @@ Public Class FormPeluches
 
     Private generador As New Random()
 
+    '=============================
+    ' MÉTODO CORREGIDO PARA RECIBIR MONEDAS
+    '=============================
+    Public Sub ActualizarMonedasDesdeCambio(cantidadNuevasMonedas As Integer)
+        ' 1. Sumamos las nuevas monedas a la variable interna 'monedas'
+        monedas += cantidadNuevasMonedas
+
+        ' 2. Reflejamos el nuevo total actualizado en los controles visuales
+        ActualizarInformacion()
+    End Sub
 
     '=============================
     ' INICIO DEL FORMULARIO
@@ -317,16 +327,9 @@ Public Class FormPeluches
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
 
-        Dim respuesta As DialogResult = MessageBox.Show(
-            "¿Deseas salir del juego?",
-            "Salir",
-            MessageBoxButtons.YesNo,
-            MessageBoxIcon.Question
-        )
-
-        If respuesta = DialogResult.Yes Then
-            Application.Exit()
-        End If
+        Dim menu As New FormMenu()
+        menu.Show()
+        Me.Hide()
 
     End Sub
 

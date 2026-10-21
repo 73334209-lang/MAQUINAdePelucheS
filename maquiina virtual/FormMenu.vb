@@ -4,16 +4,20 @@
     End Sub
 
     Private Sub LaMaquinaDeJuegoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaMaquinaDeJuegoToolStripMenuItem.Click
-        FormPeluches.Show()
-        Hide()
+        Dim peluches As New FormPeluches()
+        peluches.Show()
+        Me.Hide()
     End Sub
 
     Private Sub MonedasYCambioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MonedasYCambioToolStripMenuItem.Click
-
+        Dim monedas As New Monedas()
+        monedas.Show()
+        Me.Hide()
     End Sub
 
     Private Sub TuColecciónToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TuColecciónToolStripMenuItem.Click
-        formColeccion.Show()
-        Hide()
+        Dim coleccion As New FormColeccion()
+        coleccion.Show()
+        Me.Hide()
     End Sub
 End Class
