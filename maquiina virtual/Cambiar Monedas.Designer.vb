@@ -317,11 +317,11 @@ Partial Class Monedas
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(38, 104)
+        Label9.Location = New Point(86, 84)
         Label9.Name = "Label9"
-        Label9.Size = New Size(396, 20)
+        Label9.Size = New Size(236, 40)
         Label9.TabIndex = 0
-        Label9.Text = "Las Monedas Virtuales se usan el la Maquina de Peluches"
+        Label9.Text = "Las Monedas Virtuales se usan en" & vbCrLf & " la Maquina de Peluches"
         ' 
         ' lblSaldo
         ' 

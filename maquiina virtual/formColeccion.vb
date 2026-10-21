@@ -3,7 +3,7 @@
 Public Class FormColeccion
 
     ' Variable para llevar el número de peluches obtenidos
-    Private peluchesGanados As Integer = 4[cite: 3]
+    Private peluchesGanados As Integer = 4
     Private Const TOTAL_PELUCHES As Integer = 30
 
     ' Este evento se ejecuta al abrir la ventana
@@ -18,8 +18,9 @@ Public Class FormColeccion
     End Sub
 
     ' Evento para el botón VOLVER A JUGAR[cite: 3]
-    Private Sub btnVolverJugar_Click(sender As Object, e As EventArgs) Handles btnVolverJugar.Click
-        Me.Close() ' Cierra la ventana para volver
+    Private Sub btnVolverJugar_Click(sender As Object, e As EventArgs) Handles btnVolverjugar.Click
+        FormPeluches.Show()
+        Me.Hide() ' Cierra la ventana para volver
     End Sub
 
     ' Evento para el botón CERRAR[cite: 3]
@@ -27,4 +28,7 @@ Public Class FormColeccion
         Me.Close() ' Cierra la ventana
     End Sub
 
+    Private Sub btnVolver_Click(sender As Object, e As EventArgs) Handles btnVolverjugar.Click
+
+    End Sub
 End Class

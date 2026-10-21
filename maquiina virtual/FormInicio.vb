@@ -28,7 +28,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        If TextBox1.Text.Trim() = "admin" AndAlso TextBox2.Text = "peluche123" Then
+        If TextBox1.Text.Trim() = "admin" AndAlso TextBox2.Text = "123" Then
 
             MessageBox.Show("¡Bienvenido a Máquina de Peluches!",
                             "Acceso correcto",
@@ -45,6 +45,13 @@
                             MessageBoxIcon.Warning)
 
         End If
+        Dim menu As New FormMenu()
+        menu.Show()
+        Me.Hide()
+
     End Sub
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class
