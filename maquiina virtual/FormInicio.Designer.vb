@@ -104,7 +104,6 @@ Partial Class FormInicio
         Name = "FormInicio"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormInicio"
-        WindowState = FormWindowState.Minimized
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
