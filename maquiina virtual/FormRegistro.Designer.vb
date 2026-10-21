@@ -118,6 +118,7 @@ Partial Class FormRegistro
         Controls.Add(TextBox1)
         Controls.Add(PictureBox1)
         Name = "FormRegistro"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "FormRegistro"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

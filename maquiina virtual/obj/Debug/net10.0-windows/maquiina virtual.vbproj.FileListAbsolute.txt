@@ -3,12 +3,16 @@ C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.runtimeconfig.json
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.dll
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\bin\Debug\net10.0-windows\maquiina virtual.pdb
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Monedas.resources
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Form1.resources
-<<<<<<< Updated upstream
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormColeccion.resources
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormIngreso.resources
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormInicio.resources
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormMenu.resources
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormPeluches.resources
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormRegistro.resources
+C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.FormVictorias.resources
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina_virtual.Resources.resources
-=======
->>>>>>> Stashed changes
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.vbproj.GenerateResource.cache
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\LABORATORIO 01\Documents\GitHub\MAQUINAdePelucheS\maquiina virtual\obj\Debug\net10.0-windows\maquiina virtual.AssemblyInfoInputs.cache

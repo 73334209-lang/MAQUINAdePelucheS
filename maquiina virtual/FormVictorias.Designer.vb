@@ -33,18 +33,17 @@ Partial Class FormVictorias
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.MediumVioletRed
-        Label1.Location = New Point(1, -6)
+        Label1.Location = New Point(1, -4)
         Label1.Name = "Label1"
-        Label1.Size = New Size(351, 76)
+        Label1.Size = New Size(277, 60)
         Label1.TabIndex = 0
         Label1.Text = "¡FELICIDADES," & vbCrLf & "GANASTE ESTE PELUCHE!"
         ' 
         ' picPremio
         ' 
-        picPremio.Location = New Point(92, 100)
-        picPremio.Margin = New Padding(3, 4, 3, 4)
+        picPremio.Location = New Point(80, 75)
         picPremio.Name = "picPremio"
-        picPremio.Size = New Size(145, 208)
+        picPremio.Size = New Size(127, 156)
         picPremio.SizeMode = PictureBoxSizeMode.StretchImage
         picPremio.TabIndex = 12
         picPremio.TabStop = False
@@ -55,23 +54,23 @@ Partial Class FormVictorias
         btnAceptar.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
         btnAceptar.Font = New Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnAceptar.ForeColor = Color.White
-        btnAceptar.Location = New Point(66, 326)
-        btnAceptar.Margin = New Padding(3, 4, 3, 4)
+        btnAceptar.Location = New Point(58, 244)
         btnAceptar.Name = "btnAceptar"
-        btnAceptar.Size = New Size(194, 60)
+        btnAceptar.Size = New Size(170, 45)
         btnAceptar.TabIndex = 13
         btnAceptar.Text = "Aceptar"
         btnAceptar.UseVisualStyleBackColor = False
         ' 
         ' FormVictorias
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(344, 399)
+        ClientSize = New Size(301, 299)
         Controls.Add(btnAceptar)
         Controls.Add(picPremio)
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 2, 3, 2)
         Name = "FormVictorias"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormVictorias"

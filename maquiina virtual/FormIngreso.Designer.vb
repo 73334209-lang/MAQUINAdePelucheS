@@ -77,7 +77,7 @@ Partial Class FormIngreso
         Label1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Fuchsia
         Label1.ImageAlign = ContentAlignment.TopCenter
-        Label1.Location = New Point(217, 292)
+        Label1.Location = New Point(211, 288)
         Label1.Name = "Label1"
         Label1.Size = New Size(284, 21)
         Label1.TabIndex = 3
@@ -92,7 +92,7 @@ Partial Class FormIngreso
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Fuchsia
         Label2.ImageAlign = ContentAlignment.TopCenter
-        Label2.Location = New Point(289, 313)
+        Label2.Location = New Point(274, 309)
         Label2.Name = "Label2"
         Label2.Size = New Size(141, 21)
         Label2.TabIndex = 4
@@ -115,8 +115,8 @@ Partial Class FormIngreso
         Controls.Add(PictureBox1)
         FormBorderStyle = FormBorderStyle.None
         Name = "FormIngreso"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "FormIngreso"
-        WindowState = FormWindowState.Maximized
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
         ResumeLayout(False)

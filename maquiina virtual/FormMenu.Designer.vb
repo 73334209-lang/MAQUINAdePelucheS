@@ -54,7 +54,7 @@ Partial Class FormMenu
         ' TuColecciónToolStripMenuItem
         ' 
         TuColecciónToolStripMenuItem.Name = "TuColecciónToolStripMenuItem"
-        TuColecciónToolStripMenuItem.Size = New Size(87, 20)
+        TuColecciónToolStripMenuItem.Size = New Size(86, 20)
         TuColecciónToolStripMenuItem.Text = "Tu colección"
         ' 
         ' FormMenu
@@ -62,11 +62,12 @@ Partial Class FormMenu
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
-        BackgroundImageLayout = ImageLayout.Zoom
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(638, 338)
         Controls.Add(MenuStrip1)
         MainMenuStrip = MenuStrip1
         Name = "FormMenu"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "FormMenu"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
