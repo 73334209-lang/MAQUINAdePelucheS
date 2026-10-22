@@ -77,7 +77,7 @@ Partial Class FormIngreso
         Label1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Fuchsia
         Label1.ImageAlign = ContentAlignment.TopCenter
-        Label1.Location = New Point(216, 309)
+        Label1.Location = New Point(258, 309)
         Label1.Name = "Label1"
         Label1.Size = New Size(284, 21)
         Label1.TabIndex = 3
@@ -92,7 +92,7 @@ Partial Class FormIngreso
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Fuchsia
         Label2.ImageAlign = ContentAlignment.TopCenter
-        Label2.Location = New Point(273, 330)
+        Label2.Location = New Point(328, 330)
         Label2.Name = "Label2"
         Label2.Size = New Size(141, 21)
         Label2.TabIndex = 4

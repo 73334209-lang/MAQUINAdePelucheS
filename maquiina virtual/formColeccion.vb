@@ -14,7 +14,7 @@ Public Class FormColeccion
 
     ' ESTA ES LA FUNCIÓN (no es un botón) que actualiza el texto del Label "lblTotal"
     Private Sub ActualizarTotal()
-        lblTotal.Text = $"Total: {peluchesGanados}/{TOTAL_PELUCHES}"
+
     End Sub
 
     ' Evento para el botón VOLVER A JUGAR[cite: 3]

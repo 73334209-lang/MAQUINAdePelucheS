@@ -38,34 +38,41 @@
     ' 3. BOTÓN "OBTENER MONEDAS"
     Private Sub btnMonedas_Click(sender As Object, e As EventArgs) Handles btnMonedas.Click
         If monedasCalculadas > 0 Then
-            ' Buscar la instancia de FormPeluches que ya está abierta en la aplicación
+            ' 1. Buscar la instancia de FormPeluches que ya está abierta en la aplicación
             Dim formJuego As FormPeluches = Application.OpenForms.OfType(Of FormPeluches)().FirstOrDefault()
 
             If formJuego IsNot Nothing Then
                 ' Actualizar las monedas en la ventana abierta del juego
                 formJuego.ActualizarMonedasDesdeCambio(monedasCalculadas)
+
+                ' Asegurarse de que el juego sea visible y vuelva al frente
+                formJuego.Show()
+                formJuego.BringToFront()
+                formJuego.WindowState = FormWindowState.Normal
             Else
-                ' Si no estaba abierto, abrir una nueva instancia
+                ' Si por alguna razón el juego no estaba abierto, crear y mostrar una nueva instancia
                 formJuego = New FormPeluches()
                 formJuego.ActualizarMonedasDesdeCambio(monedasCalculadas)
                 formJuego.Show()
             End If
 
-            ' Mensaje de confirmación antes de cerrar
+            ' 2. Mensaje de confirmación
             MessageBox.Show($"¡Se han añadido {monedasCalculadas} monedas a la máquina!",
-                            "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-            ' Cierra el formulario de cambio para regresar al juego
+            ' 3. Cerrar solo este formulario de cambio de monedas
             Me.Close()
         Else
             MessageBox.Show("Primero debes realizar una conversión para obtener monedas.",
-                            "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                        "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
     End Sub
 
     ' 4. BOTÓN "VOLVER"
     Private Sub btnVolver_Click(sender As Object, e As EventArgs) Handles btnVolver.Click
-        Me.Close()
+        Dim menu As New FormMenu()
+        menu.Show()
+        Me.Hide()
     End Sub
 
     ' --- EVENTOS PARA LOS BOTONES DE MONEDAS FIJAS ---
@@ -101,5 +108,9 @@
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+    End Sub
+
+    Private Sub label7_Click(sender As Object, e As EventArgs) Handles label7.Click
+
     End Sub
 End Class
